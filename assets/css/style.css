@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #24273a;
+  font-family: 'JetBrains Mono', monospace;
+  color: #cad3f5;
+}
+
+.nav-bar {
+  overflow: hidden;
+}
+
+.nav-bar a {
+  float: left;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #cad3f5;
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 30%;
+  border: solid 7px;
+  border-color: #363a4f;
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .profile-img {
+    width: 75%;
+  }
+}
+
+
+#hello-console {
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.about-text {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.about-text p {
+  margin-top: 20px;
+}
+
+.about-technologies {
+  margin-top: 15%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.about-technologies img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: 100px;
+  width: 100px; 
+}
