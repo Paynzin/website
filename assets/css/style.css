@@ -44,7 +44,6 @@ body {
   }
 }
 
-
 #hello-console {
   font-size: 30px;
   margin-top: 100px;
@@ -52,17 +51,20 @@ body {
 }
 
 .about-text {
-  margin-top: 20%;
   text-align: center;
+  margin-top: 20%;
   font-size: 25px;
 }
 
 .about-text p {
-  margin-top: 20px;
+  text-align: start; 
+  margin-top: 5%;
+  padding-left: 17%;
+  padding-right: 17%;
 }
 
 .about-technologies {
-  margin-top: 15%;
+  margin-top: 10%;
   text-align: center;
   font-size: 25px;
 }
