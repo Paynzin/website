@@ -52,8 +52,14 @@ body {
 
 #hello-console {
   font-size: 30px;
-  margin-top: 100px;
+  margin-top: 10vh;
   text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+  #hello-console {
+    margin-top: 25vh;
+  }
 }
 
 .about-text {
