@@ -90,16 +90,18 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  #about {
+    font-size: 18px;
+  }
   .about-text {
     padding-left: 7%;
-    padding-right: 7%; 
+    padding-right: 7%;
   }
 }
 
 .about-technologies {
   margin-top: 15%;
   text-align: center;
-  font-size: 25px;
 }
 
 .about-technologies img {
